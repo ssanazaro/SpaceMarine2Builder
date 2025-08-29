@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\ssana\\GitHub\\SpaceMarine2Builder\\SpaceMarine2Builder.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E3F5A529-678E-4908-8028-2DE453CCCD6F}|..\\SpaceMarine2Builder.UI\\SpaceMarine2Builder.UI.csproj|c:\\users\\ssana\\github\\spacemarine2builder\\spacemarine2builder.ui\\wwwroot\\data\\perks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E3F5A529-678E-4908-8028-2DE453CCCD6F}|..\\SpaceMarine2Builder.UI\\SpaceMarine2Builder.UI.csproj|c:\\users\\ssana\\github\\spacemarine2builder\\spacemarine2builder.ui\\pages\\spacemarinebuilder.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -14,9 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{064E30CD-467B-4F2F-BD9E-5B8DDBC6C3DD}|SpaceMarine2Builder.API.csproj|c:\\users\\ssana\\github\\spacemarine2builder\\spacemarine2builder.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{064E30CD-467B-4F2F-BD9E-5B8DDBC6C3DD}|SpaceMarine2Builder.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3F5A529-678E-4908-8028-2DE453CCCD6F}|..\\SpaceMarine2Builder.UI\\SpaceMarine2Builder.UI.csproj|c:\\users\\ssana\\github\\spacemarine2builder\\spacemarine2builder.ui\\wwwroot\\data\\perks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{064E30CD-467B-4F2F-BD9E-5B8DDBC6C3DD}|SpaceMarine2Builder.API.csproj|c:\\users\\ssana\\github\\spacemarine2builder\\spacemarine2builder.api\\data\\spacemarines.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -87,16 +87,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SpaceMarineBuilder.razor",
               "DocumentMoniker": "C:\\Users\\ssana\\GitHub\\SpaceMarine2Builder\\SpaceMarine2Builder.UI\\Pages\\SpaceMarineBuilder.razor",
               "RelativeDocumentMoniker": "..\\SpaceMarine2Builder.UI\\Pages\\SpaceMarineBuilder.razor",
-              "ToolTip": "C:\\Users\\ssana\\GitHub\\SpaceMarine2Builder\\SpaceMarine2Builder.UI\\Pages\\SpaceMarineBuilder.razor*",
-              "RelativeToolTip": "..\\SpaceMarine2Builder.UI\\Pages\\SpaceMarineBuilder.razor*",
+              "ToolTip": "C:\\Users\\ssana\\GitHub\\SpaceMarine2Builder\\SpaceMarine2Builder.UI\\Pages\\SpaceMarineBuilder.razor",
+              "RelativeToolTip": "..\\SpaceMarine2Builder.UI\\Pages\\SpaceMarineBuilder.razor",
               "ViewState": "AgIAAMMAAAAAAAAAAAAAwDUBAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-26T17:20:37.667Z",
@@ -104,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SpaceMarineBuilder.razor.css",
               "DocumentMoniker": "C:\\Users\\ssana\\GitHub\\SpaceMarine2Builder\\SpaceMarine2Builder.UI\\Pages\\SpaceMarineBuilder.razor.css",
               "RelativeDocumentMoniker": "..\\SpaceMarine2Builder.UI\\Pages\\SpaceMarineBuilder.razor.css",
@@ -169,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ssana\\GitHub\\SpaceMarine2Builder\\SpaceMarine2Builder.UI\\Program.cs",
               "RelativeDocumentMoniker": "..\\SpaceMarine2Builder.UI\\Program.cs",
@@ -182,20 +182,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Perks.json",
               "DocumentMoniker": "C:\\Users\\ssana\\GitHub\\SpaceMarine2Builder\\SpaceMarine2Builder.UI\\wwwroot\\data\\Perks.json",
               "RelativeDocumentMoniker": "..\\SpaceMarine2Builder.UI\\wwwroot\\data\\Perks.json",
               "ToolTip": "C:\\Users\\ssana\\GitHub\\SpaceMarine2Builder\\SpaceMarine2Builder.UI\\wwwroot\\data\\Perks.json",
               "RelativeToolTip": "..\\SpaceMarine2Builder.UI\\wwwroot\\data\\Perks.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkDAAAAAAAAAAAAACYDAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-08-29T00:58:23.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ssana\\GitHub\\SpaceMarine2Builder\\SpaceMarine2Builder.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
