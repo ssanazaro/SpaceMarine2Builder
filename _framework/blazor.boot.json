@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SpaceMarine2Builder.UI",
   "resources": {
-    "hash": "sha256-mOcFJTq5/9qjYoZ9r8+cxbBibh/v1nRgk1glfMqOjPc=",
+    "hash": "sha256-x08eMNCOVs16PNjzoH0Dsxk+vWXzl66XGTj7lkheW0E=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -18,7 +18,7 @@
     },
     "coreAssembly": {},
     "assembly": {
-      "Microsoft.AspNetCore.Components.wasm": "sha256-MCg5g6DPlKbRprS7cGnEI6bUpYv1NtODVNsaayC8NKA=",
+      "Microsoft.AspNetCore.Components.wasm": "sha256-w0Z8ejVW9kgXKdiPJa/UI9Mw8LG1AxKz4NfLl8GSzKY=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-vbmhR3SSHxQ7d2rRoVmpYplGgf5f0NGZK4xeg+ufpME=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-QQOcBDu5Rl/lLCWkwHn7BGdAtS9Eg1Qbafc/mUV3kKU=",
       "Microsoft.Extensions.Configuration.Abstractions.wasm": "sha256-XR+WUfg8LtnrwdXFBnV+qO3ROyp6cYCfl1AZajIAheM=",
@@ -32,8 +32,8 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-Bi1hyBMWneH/ByWbqT/pNe0B7I/NQFklzD2g3Whdqlk=",
       "Microsoft.JSInterop.wasm": "sha256-/a2ywBVO60H6ZjqSD/C34ynDNuDMyoatYefSNc+dBaU=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-Jwrlf0VPydOWncfsAvk569TQrosh6ro1Xkc8HzvG2nQ=",
-      "SpaceMarine2Builder.Shared.wasm": "sha256-eycpRZDdqekm5wcbTodzK0DJuqoZ+mMPUKWv3cdqbRE=",
-      "SpaceMarine2Builder.UI.wasm": "sha256-scAHbKM0fS6CmK2UPSVRY33K7TluINw57HWcKfiiYlU=",
+      "SpaceMarine2Builder.Shared.wasm": "sha256-dZQvH6DvWKq+qcEFwSmS6tLcDxuTlPPjZVXSJfvHKnI=",
+      "SpaceMarine2Builder.UI.wasm": "sha256-i8tEt7gF85M/93PDOYdjdcyYIkTIjFuNOdArkxTiV7A=",
       "System.Collections.Concurrent.wasm": "sha256-fsGXWYBFpRyHM9850ubNCHoAfFHg6aE66XO05gzPMK0=",
       "System.Collections.wasm": "sha256-UBZSATS0v6UKo6GLS/2jPBZp07WW+BMMlT3+vFHP1tc=",
       "System.ComponentModel.wasm": "sha256-0D0DRqYaKmrhzGtdZW6smjKyylnAR86CtU2JGYAUBY8=",
