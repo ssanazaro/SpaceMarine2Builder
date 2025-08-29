@@ -1,0 +1,41 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <!-- Left Sidebar -->
+    <div class="sidebar left-sidebar">
+        <!-- Empty for framing -->
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+
+    <!-- Right Sidebar -->
+    <div class="sidebar right-sidebar">
+        <!-- Empty for framing -->
+    </div>
+</div>
+
+<style>
+    /* Layout: left sidebar, main content, right sidebar */
+    .page {
+        display: grid;
+        grid-template-columns: 200px 1fr 200px; /* Left, center, right */
+        gap: 10px;
+        height: 100vh;
+    }
+
+    /* Sidebars */
+    .sidebar {
+        padding: 10px;
+        overflow-y: auto;
+    }
+
+    /* Main content */
+    main {
+        overflow-y: auto;
+    }
+</style>

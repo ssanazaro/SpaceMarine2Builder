@@ -1,0 +1,6 @@
+@SpaceMarine2Builder.API_HostAddress = http://localhost:5229
+
+GET {{SpaceMarine2Builder.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

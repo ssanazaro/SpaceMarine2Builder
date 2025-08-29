@@ -1,0 +1,156 @@
+﻿/* Marines grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.marine-box {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    background-color: #f0f0f0; /* box background */
+    color: #000; /* black text */
+}
+
+    .marine-box:hover {
+        background-color: #e0e0e0;
+    }
+
+    .marine-box.selected {
+        border-color: #ffd700;
+        background-color: #d0e7ff;
+    }
+
+/* Perks container */
+.perks-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #0078d7;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #000; /* black text */
+}
+
+/* Regular perks fixed-size container */
+.regular-perks-container {
+    height: 500px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+/* Starting perk */
+.perk-starting {
+    font-weight: bold;
+    color: #0078d7;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+    .perk-starting .perk-name,
+    .perk-starting .perk-description {
+        color: #000; /* black text */
+    }
+
+/* 8-column perks grid */
+.perks-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 12px;
+    width: 100%;
+}
+
+.perk-option {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #f0f0f0; /* dark gray */
+    cursor: pointer;
+    transition: transform 0.08s ease, box-shadow 0.12s ease;
+    color: #000; /* black text */
+}
+
+    .perk-option:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    }
+
+    .perk-option.selected {
+        border-color: #ffd700;
+        background: #d0e7ff;
+        color: #000; /* black text */
+    }
+
+.perk-name {
+    font-weight: 600;
+}
+
+.perk-description {
+    font-size: 0.85rem;
+    color: #000; /* black text */
+    margin-top: 4px;
+}
+
+/* Prestige perks grid */
+.prestige-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    margin-top: 20px;
+}
+
+    .prestige-grid > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        background: #f0f0f0; /* match regular perks */
+        color: #000; /* black text */
+        cursor: pointer;
+        transition: transform 0.08s ease, box-shadow 0.12s ease;
+        width: 100%;
+        box-sizing: border-box;
+        min-width: 150px;
+    }
+
+        .prestige-grid > div:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+        }
+
+        .prestige-grid > div.selected {
+            border-color: #ffd700;
+            background: #d0e7ff;
+            color: #000;
+        }
+
+/* Share row */
+.share-row {
+    margin-top: 12px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.share-button {
+    padding: 6px 10px;
+    border-radius: 4px;
+    background: #0078d7;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
