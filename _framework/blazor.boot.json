@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SpaceMarine2Builder.UI",
   "resources": {
-    "hash": "sha256-x08eMNCOVs16PNjzoH0Dsxk+vWXzl66XGTj7lkheW0E=",
+    "hash": "sha256-+SVWBbhhFOu/oRpYGaOJRE1pDSKeL7jEhiL1aWVugPo=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -32,8 +32,8 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-Bi1hyBMWneH/ByWbqT/pNe0B7I/NQFklzD2g3Whdqlk=",
       "Microsoft.JSInterop.wasm": "sha256-/a2ywBVO60H6ZjqSD/C34ynDNuDMyoatYefSNc+dBaU=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-Jwrlf0VPydOWncfsAvk569TQrosh6ro1Xkc8HzvG2nQ=",
-      "SpaceMarine2Builder.Shared.wasm": "sha256-dZQvH6DvWKq+qcEFwSmS6tLcDxuTlPPjZVXSJfvHKnI=",
-      "SpaceMarine2Builder.UI.wasm": "sha256-i8tEt7gF85M/93PDOYdjdcyYIkTIjFuNOdArkxTiV7A=",
+      "SpaceMarine2Builder.Shared.wasm": "sha256-TqIsvpLsYx/YTq9uQKvcDPGd9DB6j7/6EpLxMmbNGlU=",
+      "SpaceMarine2Builder.UI.wasm": "sha256-8hPA1BgX3YOX7EELOISuNH96/NN85jHFEZ2G34v+ozM=",
       "System.Collections.Concurrent.wasm": "sha256-fsGXWYBFpRyHM9850ubNCHoAfFHg6aE66XO05gzPMK0=",
       "System.Collections.wasm": "sha256-UBZSATS0v6UKo6GLS/2jPBZp07WW+BMMlT3+vFHP1tc=",
       "System.ComponentModel.wasm": "sha256-0D0DRqYaKmrhzGtdZW6smjKyylnAR86CtU2JGYAUBY8=",

@@ -10,11 +10,13 @@ main[b-yqfnwzj04g] {
 }
 
 .sidebar[b-yqfnwzj04g] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-color: #2F5DA9;
+    border-right: 4px solid #C4A347;
 }
 
+
 .top-row[b-yqfnwzj04g] {
-    background-color: #f7f7f7;
+    background-color: #2F5DA9;
     border-bottom: 1px solid #d6d5d5;
     justify-content: flex-end;
     height: 3.5rem;
@@ -181,7 +183,7 @@ main[b-yqfnwzj04g] {
     cursor: pointer;
     transition: all 0.2s;
     background-color: #f0f0f0; /* box background */
-    color: #000; /* black text */
+    color: #2F5DA9;
 }
 
     .marine-box:hover[b-nc7cxbg33h] {
@@ -189,7 +191,7 @@ main[b-yqfnwzj04g] {
     }
 
     .marine-box.selected[b-nc7cxbg33h] {
-        border-color: #ffd700;
+        border-color: #C4A347;
         background-color: #d0e7ff;
     }
 
@@ -197,10 +199,10 @@ main[b-yqfnwzj04g] {
 .perks-container[b-nc7cxbg33h] {
     margin-top: 20px;
     padding: 10px;
-    border: 1px solid #0078d7;
+    border: 1px solid #C4A347;
     border-radius: 5px;
     background-color: #f0f0f0;
-    color: #000; /* black text */
+    color: #2F5DA9;
 }
 
 /* Regular perks fixed-size container */
@@ -213,7 +215,7 @@ main[b-yqfnwzj04g] {
 /* Starting perk */
 .perk-starting[b-nc7cxbg33h] {
     font-weight: bold;
-    color: #0078d7;
+    color: #2F5DA9;
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -242,7 +244,7 @@ main[b-yqfnwzj04g] {
     background: #f0f0f0; /* dark gray */
     cursor: pointer;
     transition: transform 0.08s ease, box-shadow 0.12s ease;
-    color: #000; /* black text */
+    color: #2F5DA9; /* black text */
 }
 
     .perk-option:hover[b-nc7cxbg33h] {
@@ -251,9 +253,9 @@ main[b-yqfnwzj04g] {
     }
 
     .perk-option.selected[b-nc7cxbg33h] {
-        border-color: #ffd700;
+        border-color: #C4A347;
         background: #d0e7ff;
-        color: #000; /* black text */
+        color: #2F5DA9; /* black text */
     }
 
 .perk-name[b-nc7cxbg33h] {
@@ -262,7 +264,7 @@ main[b-yqfnwzj04g] {
 
 .perk-description[b-nc7cxbg33h] {
     font-size: 0.85rem;
-    color: #000; /* black text */
+    color: #2F5DA9; /* black text */
     margin-top: 4px;
 }
 
@@ -282,7 +284,7 @@ main[b-yqfnwzj04g] {
         border: 1px solid #ccc;
         border-radius: 6px;
         background: #f0f0f0; /* match regular perks */
-        color: #000; /* black text */
+        color: #2F5DA9;
         cursor: pointer;
         transition: transform 0.08s ease, box-shadow 0.12s ease;
         width: 100%;
@@ -296,9 +298,9 @@ main[b-yqfnwzj04g] {
         }
 
         .prestige-grid > div.selected[b-nc7cxbg33h] {
-            border-color: #ffd700;
+            border-color: #C4A347;
             background: #d0e7ff;
-            color: #000;
+            color: #2F5DA9;
         }
 
 /* Share row */
