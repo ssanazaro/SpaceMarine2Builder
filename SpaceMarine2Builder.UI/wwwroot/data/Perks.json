@@ -5,7 +5,7 @@
 		"Type": "Starting",
 		"Level": 1,
 		"Name": "Starting Perk",
-		"Description": "Perfect Dodge timing increases by 50%."
+		"Description": "Perfect Dodge timing increases by 50%"
 	},
 	{
 		"PerkId": 2,
@@ -13,7 +13,7 @@
 		"Type": "Core 1",
 		"Level": 2,
 		"Name": "Winged Fury",
-		"Description": "Damage from Melee Attacks executed while sprinting or dashing increases by 25%."
+		"Description": "Damage from Melee Attacks executed while sprinting or dashing increases by 100% and deals area-of-effect damage within a 7-metre radius. Cooldown is 5 seconds"
 	},
 	{
 		"PerkId": 3,
@@ -21,7 +21,7 @@
 		"Type": "Core 2",
 		"Level": 3,
 		"Name": "Auxiliary Arsenal",
-		"Description": "Secondary Weapon's Damage increases by 15%."
+		"Description": "Secondary Weapon's Damage increases by 20%"
 	},
 	{
 		"PerkId": 4,
@@ -29,7 +29,7 @@
 		"Type": "Core 3",
 		"Level": 4,
 		"Name": "Perseverance",
-		"Description": "While performing Charged Attacks, you do not lose control upon taking Heavy Hits and you cannot be knocked back."
+		"Description": "While performing Charged Attacks you take 25% less health damage, do not lose control upon taking Heavy Hits, and cannot be knocked back"
 	},
 	{
 		"PerkId": 5,
@@ -37,7 +37,7 @@
 		"Type": "Team",
 		"Level": 5,
 		"Name": "Squad Cohesion",
-		"Description": "Jump Pack Dash damages enemies along its trajectory."
+		"Description": "All squad members' abilities recharge 10% faster"
 	},
 	{
 		"PerkId": 6,
@@ -45,7 +45,7 @@
 		"Type": "Gear 1",
 		"Level": 6,
 		"Name": "Smiting Angel",
-		"Description": "Ground Pound's Damage increases by 10%."
+		"Description": "Ground Pound's Damage increases by 25%"
 	},
 	{
 		"PerkId": 7,
@@ -53,7 +53,7 @@
 		"Type": "Gear 2",
 		"Level": 7,
 		"Name": "Wings of Flame",
-		"Description": "Jump Pack Dash damages enemies along its trajectory."
+		"Description": "A Jump Pack Dash damages enemies along its trajectory and always works as a Perfect Dodge when dodging an attack"
 	},
 	{
 		"PerkId": 8,
@@ -61,7 +61,7 @@
 		"Type": "Gear 3",
 		"Level": 8,
 		"Name": "Pride in Duty",
-		"Description": "After a Finisher, Ground Pound deals 25% more Damage for 10 seconds."
+		"Description": "After a Finisher, Ground Pound deals 25% more Damage for 10 seconds"
 	},
 	{
 		"PerkId": 9,
@@ -69,7 +69,7 @@
 		"Type": "Signature",
 		"Level": 9,
 		"Name": "Ample Ammunition",
-		"Description": "Any use of Jump Pack reloads the equipped Ranged Weapon."
+		"Description": "Any use of Jump Pack reloads the equipped Ranged Weapon and increases its damage by 50% for 10 seconds"
 	},
 	{
 		"PerkId": 10,
@@ -77,15 +77,15 @@
 		"Type": "Core 1",
 		"Level": 10,
 		"Name": "Overcharge",
-		"Description": "Damage of Charged Attacks increases by 15%."
+		"Description": "Damage of Charged Attacks increases by 25%"
 	},
 	{
 		"PerkId": 11,
 		"ClassId": 1,
 		"Type": "Core 2",
 		"Level": 11,
-		"Name": "Retribution",
-		"Description": "After you are grabbed or knocked back, you deal 15% more Melee Damage for 10 seconds."
+		"Name": "Defense Mechanism",
+		"Description": "Contested Health fades 50% more slowly"
 	},
 	{
 		"PerkId": 12,
@@ -93,7 +93,7 @@
 		"Type": "Core 3",
 		"Level": 12,
 		"Name": "Knowledge of the Enemy",
-		"Description": "Melee Damage increases by 15% against Majoris- or Extremis-level enemies."
+		"Description": "Melee Damage increases by 15% against Majoris- or Extremis-level enemies"
 	},
 	{
 		"PerkId": 13,
@@ -101,7 +101,7 @@
 		"Type": "Team",
 		"Level": 13,
 		"Name": "Strategic Strikes",
-		"Description": "After a Ground Pound, you do not lose control upon taking Heavy Hits and you cannot be knocked back for 10 seconds."
+		"Description": "All Squad Members deal 20% more Melee Damage against Extremis and Terminus level enemies"
 	},
 	{
 		"PerkId": 14,
@@ -109,7 +109,7 @@
 		"Type": "Gear 1",
 		"Level": 14,
 		"Name": "Hammer of Wrath",
-		"Description": "After a Ground Pound, you do not lose control upon taking Heavy Hits and you cannot be knocked back for 10 seconds."
+		"Description": "After using your Jump Pack, you take 30% less Ranged Damage, do not lose control upon taking Heavy Hits, and cannot be knocked back for 15 seconds"
 	},
 	{
 		"PerkId": 15,
@@ -117,7 +117,7 @@
 		"Type": "Gear 2",
 		"Level": 15,
 		"Name": "Manoeuvrability",
-		"Description": "Jump Pack recharges 20% faster."
+		"Description": "Jump Pack recharges 20% faster"
 	},
 	{
 		"PerkId": 16,
@@ -125,7 +125,7 @@
 		"Type": "Gear 3",
 		"Level": 16,
 		"Name": "Diligence",
-		"Description": "A fully prepared Ground Pound deals 20% more Damage, but preparation time increases by 25%."
+		"Description": "A fully prepared Ground Pound deals 20% more Damage, but preparation time increases by 25%"
 	},
 	{
 		"PerkId": 17,
@@ -133,7 +133,7 @@
 		"Type": "Signature",
 		"Level": 17,
 		"Name": "Ascension",
-		"Description": "Jump Pack Leap deals Damage to all enemies in the takeoff area."
+		"Description": "Jump Pack Leap deals Damage to all enemies in the takeoff area"
 	},
 	{
 		"PerkId": 18,
@@ -141,7 +141,7 @@
 		"Type": "Core 1",
 		"Level": 18,
 		"Name": "Armour Reinforcement",
-		"Description": "Non-Finisher Gun Strikes also restore Armour."
+		"Description": "Non-Finisher Gun Strikes also restore 1 Armour segment"
 	},
 	{
 		"PerkId": 19,
@@ -149,7 +149,7 @@
 		"Type": "Core 2",
 		"Level": 19,
 		"Name": "Consecutive Execution",
-		"Description": "Killing 15 enemies in rapid succession restores Equipment Charge by 1. Cooldown is 180 seconds."
+		"Description": "Killing 7 enemies in rapid succession restores Equipment Charge by 1. Cooldown is 90 seconds"
 	},
 	{
 		"PerkId": 20,
@@ -157,7 +157,7 @@
 		"Type": "Core 3",
 		"Level": 20,
 		"Name": "Act of Attrition",
-		"Description": "Enemies hit by Melee Attacks take 10% more Damage for 3 seconds."
+		"Description": "Enemies hit by Melee Attacks take 15% more Damage for 3 seconds"
 	},
 	{
 		"PerkId": 21,
@@ -165,7 +165,7 @@
 		"Type": "Team",
 		"Level": 21,
 		"Name": "Proven Efficiency",
-		"Description": "All Squad Members deal 50% more Gun Strike Damage."
+		"Description": "All Squad Members deal 30% more Gun Strike Damage"
 	},
 	{
 		"PerkId": 22,
@@ -173,7 +173,7 @@
 		"Type": "Gear 1",
 		"Level": 22,
 		"Name": "Precision Strike",
-		"Description": "Ground Pound deals 100% more Damage, but its radius is reduced by 50%."
+		"Description": "Ground Pound deals 100% more Damage, but its radius is reduced by 50%"
 	},
 	{
 		"PerkId": 23,
@@ -181,7 +181,7 @@
 		"Type": "Gear 2",
 		"Level": 23,
 		"Name": "Zealous Blow",
-		"Description": "A Ground Pound kill restores Jump Pack's Charge by 10%."
+		"Description": "A Ground Pound kill restores Jump Pack's Charge by 10%"
 	},
 	{
 		"PerkId": 24,
@@ -189,7 +189,7 @@
 		"Type": "Gear 3",
 		"Level": 24,
 		"Name": "Aerial Grace",
-		"Description": "After a perfectly timed Dodge using a Jump Pack Dash, you deal 25% more Damage for 5 seconds."
+		"Description": "After a perfectly timed Dodge using a Jump Pack Dash, you deal 30% more Damage for 10 seconds"
 	},
 	{
 		"PerkId": 25,
@@ -197,7 +197,7 @@
 		"Type": "Signature",
 		"Level": 25,
 		"Name": "Commitment",
-		"Description": "A perfectly timed Dodge using a Jump Pack Dash restores Jump Pack's Ability Charge."
+		"Description": "A perfectly timed Dodge using a Jump Pack Dash restores Jump Pack's Ability Charge"
 	},
 	{
 		"PerkId": 1,
@@ -205,7 +205,7 @@
 		"Type": "Starting",
 		"Level": 1,
 		"Name": "Starting Perk",
-		"Description": "Health increases by 30%."
+		"Description": "Health increases by 30%"
 	},
 	{
 		"PerkId": 2,
@@ -229,7 +229,7 @@
 		"Type": "Core 3",
 		"Level": 4,
 		"Name": "Defensive Advantage",
-		"Description": "A perfectly timed Parry or Block creates a Shock area for 5 seconds. Cooldown is 30 seconds."
+		"Description": "A perfectly timed Parry or Block creates a Shock area for 5 seconds. Cooldown is 30 seconds"
 	},
 	{
 		"PerkId": 5,
@@ -245,7 +245,7 @@
 		"Type": "Gear 1",
 		"Level": 6,
 		"Name": "Purity of Purpose",
-		"Description": "The banner deals Damage that scales with difficulty over time to enemies within its area of effect"
+		"Description": "The banner deals Damage over time to enemies within its area of effect"
 	},
 	{
 		"PerkId": 7,
@@ -253,7 +253,7 @@
 		"Type": "Gear 2",
 		"Level": 7,
 		"Name": "Concussive Force",
-		"Description": "Shield Bash deals 200% more Damage. Thunder Hammer Pommel Smash deals 100% more damage and deals area-of-effect Damage within a 7 meter radius. Cooldown is 5 seconds."
+		"Description": "Shield Bash deals 200% more Damage. Shield Rush deals 100% more Damage. Thunder Hammer Pommel Smash deals 100% more damage and deals area-of-effect Damage within a 7 meter radius. Cooldown is 5 seconds"
 	},
 	{
 		"PerkId": 8,
@@ -269,7 +269,7 @@
 		"Type": "Signature",
 		"Level": 9,
 		"Name": "Emergency Countermeasure",
-		"Description": "When your Armour is depleted, a reserve Shock Grenade automatically detonated at your position. Cooldown is 90 seconds."
+		"Description": "When your Armour is depleted, a reserve Shock Grenade automatically detonated at your position. Cooldown is 90 seconds"
 	},
 	{
 		"PerkId": 10,
@@ -277,7 +277,7 @@
 		"Type": "Core 1",
 		"Level": 10,
 		"Name": "Intimidating Aura",
-		"Description": "A perfectly timed Parry deals area-of-effect Damage that scales with difficulty within a 5-metre radius."
+		"Description": "A perfectly timed Parry deals area-of-effect Damage that scales with difficulty within a 5-metre radius. Cooldown is 5 seconds"
 	},
 	{
 		"PerkId": 11,
@@ -325,7 +325,7 @@
 		"Type": "Gear 3",
 		"Level": 16,
 		"Name": "Merciless Resolve",
-		"Description": "After a Shield Bash or Thunder Hammer Pommel Smash, Melee Damage increases by 15%, you do not lose control upon taking Heavy Hits and you cannot be knocked back for 10 seconds"
+		"Description": "After a Shield Bash, Shield Rush, or Thunder Hammer Pommel Smash, Melee Damage increases by 15%, you do not lose control upon taking Heavy Hits and you cannot be knocked back for 10 seconds"
 	},
 	{
 		"PerkId": 17,
@@ -333,7 +333,7 @@
 		"Type": "Signature",
 		"Level": 17,
 		"Name": "Defensive Mastery",
-		"Description": "A perfectly timed Parry instantly Incapacitates a Majoris- or Extremis-level enemy. Cooldown is 90 seconds."
+		"Description": "A perfectly timed Parry instantly Incapacitates a Majoris- or Extremis-level enemy. Cooldown is 90 seconds"
 	},
 	{
 		"PerkId": 18,
@@ -341,7 +341,7 @@
 		"Type": "Core 1",
 		"Level": 18,
 		"Name": "Forward Momentum",
-		"Description": "After a Shield Bash or Thunder Hammer Pommel Smash, Melee Damage increases by 30% for 10 seconds"
+		"Description": "After a Shield Bash, Shield Rush, or Thunder Hammer Pommel Smash, Melee Damage increases by 30% for 10 seconds"
 	},
 	{
 		"PerkId": 19,
@@ -365,7 +365,7 @@
 		"Type": "Team",
 		"Level": 21,
 		"Name": "Effective Formation",
-		"Description": "All Squad members take 20% less Health Damage from Extremis- and Terminus-level enemies"
+		"Description": "All Squad members take 20% less Health Damage from Extremis and Terminus level enemies"
 	},
 	{
 		"PerkId": 22,
@@ -405,7 +405,7 @@
 		"Type": "Starting",
 		"Level": 1,
 		"Name": "Starting Perk",
-		"Description": "When Iron Halo is active, all Squad members within 50 metres take 10% less Damage from Ranged Attacks."
+		"Description": "When Iron Halo is active, all Squad members within 50 metres take 10% less Damage from Ranged Attacks"
 	},
 	{
 		"PerkId": 2,
@@ -413,7 +413,7 @@
 		"Type": "Core 1",
 		"Level": 2,
 		"Name": "Restoration",
-		"Description": "Killing 10 enemies within 5 seconds restores 1 Armour Segments. Cooldown is 15 seconds."
+		"Description": "Killing 7 enemies in rapid succession restores 1 Armour Segment. Cooldown is 15 seconds"
 	},
 	{
 		"PerkId": 3,
@@ -421,7 +421,7 @@
 		"Type": "Core 2",
 		"Level": 3,
 		"Name": "Thermal Boost",
-		"Description": "When a Ranged Weapon is 50% Overheated or you have 50% ammo in Magazine, Ranged Damage increases by 15%."
+		"Description": "When a Ranged Weapon is 50% Overheated or you have less than 50% ammo in Magazine, Ranged Damage increases by 15%"
 	},
 	{
 		"PerkId": 4,
@@ -429,7 +429,7 @@
 		"Type": "Core 3",
 		"Level": 4,
 		"Name": "Enhanced Force",
-		"Description": "Melee Damage increases by 30%."
+		"Description": "Melee Damage increases by 30%"
 	},
 	{
 		"PerkId": 5,
@@ -437,7 +437,7 @@
 		"Type": "Team",
 		"Level": 5,
 		"Name": "Encompassing Aegis",
-		"Description": "All Squad Members take 25% less Damage from Ranged Attacks."
+		"Description": "All Squad Members take 25% less Damage from Ranged Attacks"
 	},
 	{
 		"PerkId": 6,
@@ -445,7 +445,7 @@
 		"Type": "Gear 1",
 		"Level": 6,
 		"Name": "Adamant Will",
-		"Description": "After Iron Halo deactivates, you take 20% less Health Damage for 10 seconds."
+		"Description": "After Iron Halo deactivates, you take 20% less Health Damage for 10 seconds"
 	},
 	{
 		"PerkId": 7,
@@ -453,7 +453,7 @@
 		"Type": "Gear 2",
 		"Level": 7,
 		"Name": "Obdurate Bastion",
-		"Description": "Iron Halo's Durability increases by 20%."
+		"Description": "Iron Halo's Durability increases by 20%"
 	},
 	{
 		"PerkId": 8,
@@ -461,7 +461,7 @@
 		"Type": "Gear 3",
 		"Level": 8,
 		"Name": "Saving Grace",
-		"Description": "Reviving a Squad Member fully restores Iron Halo's Charge and all Armour Segments."
+		"Description": "Reviving a Squad Member fully restores Iron Halo's Charge and all Armour Segments"
 	},
 	{
 		"PerkId": 9,
@@ -469,7 +469,7 @@
 		"Type": "Signature",
 		"Level": 9,
 		"Name": "Offensive Capability",
-		"Description": "When active, Iron Halo deals Damage that scales with difficulty over time to all enemies within 5 metres."
+		"Description": "When active, Iron Halo deals Damage that scales with difficulty over time to all enemies within 5 metres"
 	},
 	{
 		"PerkId": 10,
@@ -477,7 +477,7 @@
 		"Type": "Core 1",
 		"Level": 10,
 		"Name": "Multi-Kill",
-		"Description": "Killing 5 or more enemies with one shot from a Multi-Melta restores Ammo by 1."
+		"Description": "Killing 5 or more enemies with one shot from a Multi-Melta restores Ammo by 1"
 	},
 	{
 		"PerkId": 11,
@@ -485,7 +485,7 @@
 		"Type": "Core 2",
 		"Level": 11,
 		"Name": "Fortitude",
-		"Description": "Health increases by 30%."
+		"Description": "Health increases by 30%"
 	},
 	{
 		"PerkId": 12,
@@ -493,7 +493,7 @@
 		"Type": "Core 3",
 		"Level": 12,
 		"Name": "Overwhelming Power",
-		"Description": "When Iron Halo is active, all Squad Members within 10 metres deal 10% more Ranged Damage."
+		"Description": "When Iron Halo is active, all Squad Members within 10 metres deal 10% more Ranged Damage"
 	},
 	{
 		"PerkId": 13,
@@ -501,7 +501,7 @@
 		"Type": "Team",
 		"Level": 13,
 		"Name": "Additional Supplies",
-		"Description": "Ammo Capacity for all Squad Members' Weapons increases by 25%."
+		"Description": "Ammo Capacity for all Squad Members' Weapons increases by 25%"
 	},
 	{
 		"PerkId": 14,
@@ -509,7 +509,7 @@
 		"Type": "Gear 1",
 		"Level": 14,
 		"Name": "Consecutive Execution",
-		"Description": "Killing 7 enemies within 5 seconds restores Equipment Charge. Cooldown is 90 seconds."
+		"Description": "Killing 7 enemies in rapid succession restores Equipment Charge. Cooldown is 90 seconds"
 	},
 	{
 		"PerkId": 15,
@@ -517,7 +517,7 @@
 		"Type": "Gear 2",
 		"Level": 15,
 		"Name": "Field Adjustment",
-		"Description": "Iron Halo recharges 20% faster, but its Durability is reduced by 25%."
+		"Description": "Iron Halo recharges 20% faster, but its Durability is reduced by 25%"
 	},
 	{
 		"PerkId": 16,
@@ -525,7 +525,7 @@
 		"Type": "Gear 3",
 		"Level": 16,
 		"Name": "Brute Force",
-		"Description": "When Iron Halo is in cooldown, Ranged Damage increases by 15%."
+		"Description": "When Iron Halo is in cooldown, Ranged Damage increases by 15%"
 	},
 	{
 		"PerkId": 17,
@@ -533,7 +533,7 @@
 		"Type": "Signature",
 		"Level": 17,
 		"Name": "Coolant Reserve",
-		"Description": "If both of your Squad Members are Incapacitated or grabbed, your Primary Weapon will not Overheat and you deal 15% more Damage."
+		"Description": "If both of your Squad Members are Incapacitated or grabbed, your Primary Weapon will not Overheat and you deal 15% more Damage"
 	},
 	{
 		"PerkId": 18,
@@ -541,7 +541,7 @@
 		"Type": "Core 1",
 		"Level": 18,
 		"Name": "Auxiliary Ammunition",
-		"Description": "When your Primary Weapon is out of Ammo, killing 7 enemies within 6 seconds restores Ammo Reserve by 20%. Cooldown is 30 seconds."
+		"Description": "When your Primary Weapon is out of Ammo, killing 7 enemies in rapid succession restores Ammo Reserve by 20%. Cooldown is 30 seconds"
 	},
 	{
 		"PerkId": 19,
@@ -549,7 +549,7 @@
 		"Type": "Core 2",
 		"Level": 19,
 		"Name": "Strategic Stand",
-		"Description": "While in Heavy Stance, dealing Damage restores 15% more Contested Health, you do not lose control upon taking Heavy Hits, and you cannot be knocked back but you will not be able to move."
+		"Description": "While in Heavy Stance, dealing Damage restores 15% more Contested Health, you do not lose control upon taking Heavy Hits, and you cannot be knocked back but you will not be able to move"
 	},
 	{
 		"PerkId": 20,
@@ -557,7 +557,7 @@
 		"Type": "Core 3",
 		"Level": 20,
 		"Name": "Versatility",
-		"Description": "After switching Weapons, your Secondary Weapon does 20% more Damage. The Effect lasts until reloading or switching back to your Primary Weapon."
+		"Description": "After switching Weapons, your Secondary Weapon does 20% more Damage. The Effect lasts until reloading or switching back to your Primary Weapon"
 	},
 	{
 		"PerkId": 21,
@@ -565,7 +565,7 @@
 		"Type": "Team",
 		"Level": 21,
 		"Name": "Bonds of Brotherhood",
-		"Description": "Reviving a Squad Member restores them to full Health."
+		"Description": "Reviving a Squad Member restores them to full Health"
 	},
 	{
 		"PerkId": 22,
@@ -573,7 +573,7 @@
 		"Type": "Gear 1",
 		"Level": 22,
 		"Name": "Emperor's Protection",
-		"Description": "When Iron Halo expends all its energy, 1 Armour Segment is restored for all Squad Members."
+		"Description": "When Iron Halo expends all its energy, 1 Armour Segment is restored for all Squad Members"
 	},
 	{
 		"PerkId": 23,
@@ -581,7 +581,7 @@
 		"Type": "Gear 2",
 		"Level": 23,
 		"Name": "Power Regulator",
-		"Description": "Iron Halo loses energy 20% more slowly."
+		"Description": "Iron Halo loses energy 20% more slowly"
 	},
 	{
 		"PerkId": 24,
@@ -589,7 +589,7 @@
 		"Type": "Gear 3",
 		"Level": 24,
 		"Name": "Wrath of the Imperium",
-		"Description": "When Iron Halo expends all of its energy, enemies in a 10-metre radius take significant Damage that scales with difficulty."
+		"Description": "When Iron Halo expends all of its energy, enemies in a 10-metre radius take significant Damage"
 	},
 	{
 		"PerkId": 25,
@@ -597,7 +597,7 @@
 		"Type": "Signature",
 		"Level": 25,
 		"Name": "Conversion Field",
-		"Description": "When Iron Halo is active, all Squad Members within 20 metres regenerate Ability Charge 50% faster."
+		"Description": "When Iron Halo is active, all Squad Members within 20 metres regenerate Ability Charge 50% faster"
 	},
 	{
 		"PerkId": 1,
@@ -605,7 +605,7 @@
 		"Type": "Starting",
 		"Level": 1,
 		"Name": "Starting Perk",
-		"Description": "Headshot Damage increases by 10%."
+		"Description": "Headshot Damage increases by 10%"
 	},
 	{
 		"PerkId": 2,
@@ -653,7 +653,7 @@
 		"Type": "Gear 2",
 		"Level": 7,
 		"Name": "Guardian Protocol",
-		"Description": "When you are reviving a Squad Member, Camo Cloak hides you and the Squad Member for 5 seconds without spending Charge. Cooldown is 30 seconds."
+		"Description": "When you are reviving a Squad Member, Camo Cloak hides you and the Squad Member for 5 seconds without spending Charge. Cooldown is 30 seconds"
 	},
 	{
 		"PerkId": 8,
@@ -669,7 +669,7 @@
 		"Type": "Signature",
 		"Level": 9,
 		"Name": "Evasion",
-		"Description": "After a perfectly timed Dodge, Camo Cloak automatically activates without spending Charge for 5 seconds. Cooldown is 30 seconds."
+		"Description": "After a perfectly timed Dodge, Camo Cloak automatically activates without spending Charge for 5 seconds. Cooldown is 30 seconds"
 	},
 	{
 		"PerkId": 10,
@@ -677,7 +677,7 @@
 		"Type": "Core 1",
 		"Level": 10,
 		"Name": "Melee Mastery",
-		"Description": "Melee Damage increases by 20% against Majoris-level and higher enemies"
+		"Description": "Melee Damage increases by 20% against Majoris level and higher enemies"
 	},
 	{
 		"PerkId": 11,
@@ -701,7 +701,7 @@
 		"Type": "Team",
 		"Level": 13,
 		"Name": "Precision Targeting",
-		"Description": "Weapon Spread is reduced by 25% and Ranged Damage against Extremis-level enemies is increased by 15% for all Squad Members"
+		"Description": "Weapon Spread is reduced by 25% and Ranged Damage against Extremis level enemies is increased by 15% for all Squad Members"
 	},
 	{
 		"PerkId": 14,
@@ -733,7 +733,7 @@
 		"Type": "Signature",
 		"Level": 17,
 		"Name": "Emergency Override",
-		"Description": "When you receive Lethal Damage, Camo Cloak automatically activates without spending Charge and you become Invulnerable for 5 seconds. Cooldown is 180 seconds."
+		"Description": "When you receive Lethal Damage, Camo Cloak automatically activates without spending Charge and you become Invulnerable for 5 seconds. Cooldown is 180 seconds"
 	},
 	{
 		"PerkId": 18,
@@ -773,7 +773,7 @@
 		"Type": "Gear 1",
 		"Level": 22,
 		"Name": "Renewal",
-		"Description": "A Headshot kill restores Camo Cloak's Charge by 5%"
+		"Description": "A Headshot kill restores Camo Cloak's Charge by 15%"
 	},
 	{
 		"PerkId": 23,
@@ -789,7 +789,7 @@
 		"Type": "Gear 3",
 		"Level": 24,
 		"Name": "Ambush",
-		"Description": "When Camo Cloak deactivates, it startles nearby enemies. They will temporarily lose control or get knocked back. Cooldown is 25 seconds."
+		"Description": "When Camo Cloak deactivates, it startles nearby enemies. They will temporarily lose control or get knocked back. Cooldown is 25 seconds"
 	},
 	{
 		"PerkId": 25,
@@ -797,7 +797,7 @@
 		"Type": "Signature",
 		"Level": 25,
 		"Name": "Pattern of Excellence",
-		"Description": "Performing 3 consecutive Headshots restores Equipment Charge by 1. Cooldown is 30 seconds."
+		"Description": "Performing 3 consecutive Headshots restores Equipment Charge by 1. Cooldown is 30 seconds"
 	},
 	{
 		"PerkId": 1,
@@ -805,7 +805,7 @@
 		"Type": "Starting",
 		"Level": 1,
 		"Name": "Starting Perk",
-		"Description": "Any unequipped Ranged Weapon reloads automatically after 10 seconds."
+		"Description": "Any unequipped Ranged Weapon reloads automatically after 10 seconds"
 	},
 	{
 		"PerkId": 2,
@@ -837,7 +837,7 @@
 		"Type": "Team",
 		"Level": 5,
 		"Name": "Secure Stockpile",
-		"Description": "Equipment Charge is restored by 1 for all Squad Members. Cooldown is 60 seconds."
+		"Description": "Equipment Charge is restored by 1 for all Squad Members. Cooldown is 60 seconds"
 	},
 	{
 		"PerkId": 6,
@@ -845,7 +845,7 @@
 		"Type": "Gear 1",
 		"Level": 6,
 		"Name": "Vital Data",
-		"Description": "Scanning an Extremis- or Terminus-level enemy restores Auspex Scan's Charge by 50%"
+		"Description": "Scanning an Extremis or Terminus level enemy restores Auspex Scan's Charge by 50%"
 	},
 	{
 		"PerkId": 7,
@@ -877,7 +877,7 @@
 		"Type": "Core 1",
 		"Level": 10,
 		"Name": "Plasma Boost",
-		"Description": "When the Plasma Incinerator is 30% Overheated, its Damage increases by 40% and their Charged Shots use 1 less energy"
+		"Description": "When Plasma Weapons are 30% Overheated their Damage increases by 40% and their Charged Shots use 1 less energy"
 	},
 	{
 		"PerkId": 11,
@@ -893,7 +893,7 @@
 		"Type": "Core 3",
 		"Level": 12,
 		"Name": "Steady Aim",
-		"Description": "Weapon Spread and Recoil is reduced by 20% and Ranged Damage against Terminus-level enemies is increased by 20%"
+		"Description": "Weapon Spread and Recoil is reduced by 20% and Ranged Damage against Terminus level enemies is increased by 15%"
 	},
 	{
 		"PerkId": 13,
@@ -909,7 +909,7 @@
 		"Type": "Gear 1",
 		"Level": 14,
 		"Name": "Priority Targeting",
-		"Description": "The Mark from Auspex Scan lasts 8 seconds longer (base: 8), but Auspex Scan ignores Minoris-level enemies"
+		"Description": "The Mark from Auspex Scan lasts 8 seconds longer (base: 8), but Auspex Scan ignores Minoris level enemies"
 	},
 	{
 		"PerkId": 15,
@@ -933,7 +933,7 @@
 		"Type": "Signature",
 		"Level": 17,
 		"Name": "Radiating Impact",
-		"Description": "A Melee Finisher additionally deals area-of-effect Damage that scales with difficulty in a 10-metre radius. Cooldown is 90 seconds."
+		"Description": "A Melee Finisher additionally deals area-of-effect Damage that scales with difficulty in a 10-metre radius. Cooldown is 90 seconds"
 	},
 	{
 		"PerkId": 18,
@@ -949,7 +949,7 @@
 		"Type": "Core 2",
 		"Level": 19,
 		"Name": "Versatility",
-		"Description": "After switching Weapons, your Secondary Weapon does 25% more Damage. The Effect lasts until reloading or switching back to your Primary Weapon."
+		"Description": "After switching Weapons, your Secondary Weapon does 25% more Damage. The Effect lasts until reloading or switching back to your Primary Weapon"
 	},
 	{
 		"PerkId": 20,
@@ -957,7 +957,7 @@
 		"Type": "Core 3",
 		"Level": 20,
 		"Name": "Emperor's Vengeance",
-		"Description": "Killing a Majoris-level or higher enemy restores your Primary Weapon's Ammo by 1 magazine. For Primary Weapons that doesn't reload, 20% of maximum Ammo capacity is restored instead. Cannot exceed maximum Ammo capacity. Cooldown is 30 seconds."
+		"Description": "Killing a Majoris level or higher enemy restores your Primary Weapon's Ammo by 1 magazine. Cannot exceed maximum Ammo capacity. Cooldown is 30 seconds"
 	},
 	{
 		"PerkId": 21,
@@ -997,7 +997,7 @@
 		"Type": "Signature",
 		"Level": 25,
 		"Name": "Marked for Death",
-		"Description": "A Headshot will instantly kill a Majoris- or Extremis-level enemy marked by Auspex Scan. Cooldown is 120 seconds."
+		"Description": "A Headshot will instantly kill a Majoris or Extremis level enemy marked by Auspex Scan. Cooldown is 120 seconds"
 	},
 	{
 		"PerkId": 1,
@@ -1005,7 +1005,7 @@
 		"Type": "Starting",
 		"Level": 1,
 		"Name": "Starting Perk",
-		"Description": "Melee Attacks restores 50% more Contested Health."
+		"Description": "Melee Attacks restores 50% more Contested Health"
 	},
 	{
 		"PerkId": 2,
@@ -1013,7 +1013,7 @@
 		"Type": "Core 1",
 		"Level": 2,
 		"Name": "Moving Target",
-		"Description": "Each Melee Attack you land reduces the Ranged Damage you take by 5% (up to 30%). If you do not land a Melee Attack for 5 seconds, the effect ends."
+		"Description": "Each Melee Attack you land reduces the Ranged Damage you take by 5% (up to 30%). If you do not land a Melee Attack for 5 seconds, the effect ends"
 	},
 	{
 		"PerkId": 3,
@@ -1021,7 +1021,7 @@
 		"Type": "Core 2",
 		"Level": 3,
 		"Name": "Duellist",
-		"Description": "Perfect Parry and Perfect Block windows increase by 50%."
+		"Description": "Perfect Parry and Perfect Block windows increase by 50%"
 	},
 	{
 		"PerkId": 4,
@@ -1029,7 +1029,7 @@
 		"Type": "Core 3",
 		"Level": 4,
 		"Name": "Retribution",
-		"Description": "After you are grabbed or knocked back, you deal 30% more Melee Damage for 20 seconds."
+		"Description": "After you are grabbed or knocked back, you deal 30% more Melee Damage for 20 seconds"
 	},
 	{
 		"PerkId": 5,
@@ -1037,7 +1037,7 @@
 		"Type": "Team",
 		"Level": 5,
 		"Name": "Melee Champion",
-		"Description": "All Squad Members deal 15% more Melee Damage."
+		"Description": "All Squad Members deal 15% more Melee Damage"
 	},
 	{
 		"PerkId": 6,
@@ -1045,7 +1045,7 @@
 		"Type": "Gear 1",
 		"Level": 6,
 		"Name": "Restless Fortitude",
-		"Description": "After a Diving Kick, you take 40% less Ranged Damage for 10 seconds."
+		"Description": "After a Diving Kick, you take 40% less Ranged Damage for 10 seconds"
 	},
 	{
 		"PerkId": 7,
@@ -1053,7 +1053,7 @@
 		"Type": "Gear 2",
 		"Level": 7,
 		"Name": "Zone of Impact",
-		"Description": "Performing a Finisher with the Grapnel Launcher deals Damage that scales with difficulty to enemies within 5-metres."
+		"Description": "Performing a Finisher with the Grapnel Launcher deals Damage to nearby enemies"
 	},
 	{
 		"PerkId": 8,
@@ -1061,7 +1061,7 @@
 		"Type": "Gear 3",
 		"Level": 8,
 		"Name": "Thrill of the Fight",
-		"Description": "After a perfectly timed Parry, Block or Dodge, you take 20% less Health Damage for 5 seconds."
+		"Description": "After a perfectly timed Parry, Block or Dodge, you take 20% less Health Damage for 5 seconds"
 	},
 	{
 		"PerkId": 9,
@@ -1069,7 +1069,7 @@
 		"Type": "Signature",
 		"Level": 9,
 		"Name": "Tactical Prowess",
-		"Description": "Grapnel Launcher can activate a Finisher not only on Incapacitated enemies but also on those who have less than 33% (except Terminus level), and Performing a Finisher with the Grapnel Launcher fully restores its Ability Charge."
+		"Description": "Grapnel Launcher can activate a Finisher not only on Incapacitated enemies but also on those who have less than 33% (except Terminus level), and Performing a Finisher with the Grapnel Launcher fully restores its Charge"
 	},
 	{
 		"PerkId": 10,
@@ -1077,7 +1077,7 @@
 		"Type": "Core 1",
 		"Level": 10,
 		"Name": "Melee Mastery",
-		"Description": "Melee Damage increases by 10% against Majoris-level and higher enemies."
+		"Description": "Melee Damage increases by 10% against Majoris level and higher enemies"
 	},
 	{
 		"PerkId": 11,
@@ -1085,7 +1085,7 @@
 		"Type": "Core 2",
 		"Level": 11,
 		"Name": "Close-Combat Focus",
-		"Description": "You take 20% less Ranged Damage."
+		"Description": "You take 20% less Ranged Damage"
 	},
 	{
 		"PerkId": 12,
@@ -1093,7 +1093,7 @@
 		"Type": "Core 3",
 		"Level": 12,
 		"Name": "Consecutive Execution",
-		"Description": "Killing 7 enemies within 5 seconds restores Equipment Charge by 1. Cooldown is 90 seconds."
+		"Description": "Killing 7 enemies in rapid succession restores Equipment Charge by 1. Cooldown is 90 seconds"
 	},
 	{
 		"PerkId": 13,
@@ -1101,7 +1101,7 @@
 		"Type": "Team",
 		"Level": 13,
 		"Name": "Unmatched Zeal",
-		"Description": "Melee Finishers of Extremis- or Terminus-level additionally restore Health by 30% for any Squad Member."
+		"Description": "Melee Finishers of Extremis or Terminus level additionally restore Health by 30% for any Squad Member"
 	},
 	{
 		"PerkId": 14,
@@ -1109,7 +1109,7 @@
 		"Type": "Gear 1",
 		"Level": 14,
 		"Name": "Shock Wave",
-		"Description": "Diving Kick additionally deals 50% of its main Damage in a 5-metre radius."
+		"Description": "Diving Kick additionally deals Damage in a 5-metre radius"
 	},
 	{
 		"PerkId": 15,
@@ -1117,7 +1117,7 @@
 		"Type": "Gear 2",
 		"Level": 15,
 		"Name": "Tenacity",
-		"Description": "After killing 10 enemies within 5 seconds, Diving Kick's Damage increases by 40% for 15 seconds."
+		"Description": "After killing 7 enemies in rapid succession, Diving Kick's Damage increases by 40% for 15 seconds"
 	},
 	{
 		"PerkId": 16,
@@ -1125,7 +1125,7 @@
 		"Type": "Gear 3",
 		"Level": 16,
 		"Name": "Grim Determination",
-		"Description": "When Grapnel Launcher is in cooldown, Weapon Damage increases by 15%."
+		"Description": "When Grapnel Launcher is in cooldown, Weapon Damage increases by 15%"
 	},
 	{
 		"PerkId": 17,
@@ -1133,7 +1133,7 @@
 		"Type": "Signature",
 		"Level": 17,
 		"Name": "Emperor's Blessing",
-		"Description": "Take Lethal Damage restores all Armour instead of Incapacitating you. Cooldown is 120 seconds."
+		"Description": "Take Lethal Damage restores all Armour instead of Incapacitating you. Cooldown is 120 seconds"
 	},
 	{
 		"PerkId": 18,
@@ -1141,7 +1141,7 @@
 		"Type": "Core 1",
 		"Level": 18,
 		"Name": "Upper Hand",
-		"Description": "After a perfectly timed Parry, Block or Dodge, you do not lose control upon taking Heavy Hits and you cannot be knocked back for 10 seconds."
+		"Description": "After a perfectly timed Parry, Block or Dodge, you do not lose control upon taking Heavy Hits and you cannot be knocked back for 10 seconds"
 	},
 	{
 		"PerkId": 19,
@@ -1149,7 +1149,7 @@
 		"Type": "Core 2",
 		"Level": 19,
 		"Name": "Conviction",
-		"Description": "When your Armour is fully Depleted, you take 25% less Health Damage for 10 seconds."
+		"Description": "When your Armour is fully Depleted, you take 25% less Health Damage for 10 seconds"
 	},
 	{
 		"PerkId": 20,
@@ -1157,7 +1157,7 @@
 		"Type": "Core 3",
 		"Level": 20,
 		"Name": "Honed Reactions",
-		"Description": "When your Health is less than 50%, your Perfect Dodge window is doubled."
+		"Description": "When your Health is less than 50%, your Perfect Dodge window is doubled"
 	},
 	{
 		"PerkId": 21,
@@ -1165,7 +1165,7 @@
 		"Type": "Team",
 		"Level": 21,
 		"Name": "Inner Fire",
-		"Description": "All Squad Members can restore Ability Charge by 15% by performing Finishers on Majoris-level or higher enemies."
+		"Description": "All Squad Members can restore Ability Charge by 15% by performing Finishers on Majoris level or higher enemies"
 	},
 	{
 		"PerkId": 22,
@@ -1173,7 +1173,7 @@
 		"Type": "Gear 1",
 		"Level": 22,
 		"Name": "Collateral Damage",
-		"Description": "Diving Kick deals 10% more Damage and additionally deals damage that scales with difficulty to enemies on the way to the Grapnel Launcher's target."
+		"Description": "Diving Kick deals 10% more Damage and additionally damages enemies on the way to the Grapnel Launcher's target"
 	},
 	{
 		"PerkId": 23,
@@ -1181,7 +1181,7 @@
 		"Type": "Gear 2",
 		"Level": 23,
 		"Name": "Tip of the Spear",
-		"Description": "Enemies hit by Diving Kick take 15% more Ranged Damage for 10 seconds."
+		"Description": "Enemies hit by Diving Kick take 15% more Ranged Damage for 10 seconds"
 	},
 	{
 		"PerkId": 24,
@@ -1189,7 +1189,7 @@
 		"Type": "Gear 3",
 		"Level": 24,
 		"Name": "Combat Readiness",
-		"Description": "Grapnel Launcher recharges 20% faster."
+		"Description": "Grapnel Launcher recharges 20% faster"
 	},
 	{
 		"PerkId": 25,
@@ -1197,6 +1197,6 @@
 		"Type": "Signature",
 		"Level": 25,
 		"Name": "Adrenaline Rush",
-		"Description": "Melee kills of Majoris-level or higher enemies restore Health by 5%."
+		"Description": "Melee kills of Majoris-level or higher enemies restore Health by 5%"
 	}
 ]
